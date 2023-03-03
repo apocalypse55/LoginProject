@@ -1,0 +1,39 @@
+body{
+    background-image: url('./images/backgroundimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.video{
+position: absolute;
+width:80%;
+height: 50%;
+left: 10%;
+top: 25%;
+opacity: 0.81;
+}
+.welcome{
+     font-family: 'Lora', serif;
+     color: aliceblue;
+     text-align: center;
+     font-size: 45px;
+     padding: 0;
+     margin: 0;
+
+    
+     
+}
+.logout{
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: red;
+    
+    border-radius: 5px;
+    opacity: 0.8;
+}
+.logout:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
